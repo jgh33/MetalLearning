@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		E91F0AE7269C6E67001CBF0B /* MetalLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F0AD4269C6E65001CBF0B /* MetalLearningApp.swift */; };
 		E91F0AE8269C6E67001CBF0B /* MetalLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F0AD4269C6E65001CBF0B /* MetalLearningApp.swift */; };
-		E91F0AE9269C6E67001CBF0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F0AD5269C6E65001CBF0B /* ContentView.swift */; };
-		E91F0AEA269C6E67001CBF0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F0AD5269C6E65001CBF0B /* ContentView.swift */; };
+		E91F0AE9269C6E67001CBF0B /* MyMTLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F0AD5269C6E65001CBF0B /* MyMTLView.swift */; };
+		E91F0AEA269C6E67001CBF0B /* MyMTLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F0AD5269C6E65001CBF0B /* MyMTLView.swift */; };
 		E91F0AEB269C6E67001CBF0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91F0AD6269C6E67001CBF0B /* Assets.xcassets */; };
 		E91F0AEC269C6E67001CBF0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91F0AD6269C6E67001CBF0B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E91F0AD4269C6E65001CBF0B /* MetalLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalLearningApp.swift; sourceTree = "<group>"; };
-		E91F0AD5269C6E65001CBF0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E91F0AD5269C6E65001CBF0B /* MyMTLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMTLView.swift; sourceTree = "<group>"; };
 		E91F0AD6269C6E67001CBF0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E91F0ADB269C6E67001CBF0B /* MetalLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91F0ADE269C6E67001CBF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				E91F0AD4269C6E65001CBF0B /* MetalLearningApp.swift */,
-				E91F0AD5269C6E65001CBF0B /* ContentView.swift */,
+				E91F0AD5269C6E65001CBF0B /* MyMTLView.swift */,
 				E91F0AD6269C6E67001CBF0B /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -187,7 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E91F0AE9269C6E67001CBF0B /* ContentView.swift in Sources */,
+				E91F0AE9269C6E67001CBF0B /* MyMTLView.swift in Sources */,
 				E91F0AE7269C6E67001CBF0B /* MetalLearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E91F0AEA269C6E67001CBF0B /* ContentView.swift in Sources */,
+				E91F0AEA269C6E67001CBF0B /* MyMTLView.swift in Sources */,
 				E91F0AE8269C6E67001CBF0B /* MetalLearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,7 +321,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2L8683256Z;
+				DEVELOPMENT_TEAM = U28X3G4N5K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -343,7 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2L8683256Z;
+				DEVELOPMENT_TEAM = U28X3G4N5K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
